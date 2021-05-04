@@ -38,6 +38,12 @@
   align-self: flex-end;
 }
 
+@media only screen and ( max-width: 768px ) {
+  .react-chatbot-kit-chat-container {
+    width: 100vw;
+  }
+}
+
 .react-chatbot-kit-chat-inner-container {
   background-color: #fff;
   height: 100%;
