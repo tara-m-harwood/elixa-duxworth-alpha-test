@@ -28,6 +28,10 @@
   color: #fff;
 }
 
+.react-chatbot-kit-chat-header {
+  visibility: hidden;
+}
+
 .react-chatbot-kit-chat-container {
   width: 70vw;
   height: 100vh;
@@ -46,15 +50,17 @@
 
 .react-chatbot-kit-chat-bot-message {
   margin-left: 0;
-  width: 45%;
+  width: fit-content;
+  max-width: 45%;
   font-size: large;
   font-weight: 700;
 }
 
 .react-chatbot-kit-user-chat-message {
   font-size: large;
+  font-weight: 700;
   color: #000;
-  background-color: #c9d3c5;
+  background-color: #D7E1AC;
   max-width: 45%;
 }
 
