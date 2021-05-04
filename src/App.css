@@ -43,6 +43,7 @@
 .react-chatbot-kit-chat-bot-message {
   margin-left: 0;
   font-size: large;
+  font-weight: 700;
 }
 
 .react-chatbot-kit-user-chat-message {
