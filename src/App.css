@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #a2dda2;
+  background-color: #ED4AAE;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,23 +25,30 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fff;
 }
 
 .react-chatbot-kit-chat-container {
-  width: 75vw;
+  width: 70vw;
   height: 99vh;
   align-self: flex-end;
 }
 
 .react-chatbot-kit-chat-inner-container {
-  background-color: #61dafb;
-  width: 75vw;
-  height: 90vh;
+  background-color: #fff;
+  /* width: 75vw;
+  height: 90vh; */
 }
 
 .react-chatbot-kit-chat-bot-message {
-  justify-items: left;
+  margin-left: 0;
+  font-size: large;
+}
+
+.react-chatbot-kit-user-chat-message {
+  font-size: large;
+  color: #000;
+  background-color: #c9d3c5;
 }
 
 
