@@ -1,14 +1,14 @@
 import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
 
-import LearningOptions from "./components/LearningOptions/LearningOptions";
+import InitialChoices from "./components/InitialChoices/InitialChoices";
 import LinkList from "./components/LinkList/LinkList";
 
 const config = {
   botName: "Elixa Duxworth",
   initialMessages: [
-    createChatBotMessage("Hi, I'm here to help. What do you want to learn?", {
-      widget: "learningOptions",
+    createChatBotMessage("Hi, I'm here to help. How can I support you today?", {
+      widget: "initialChoices",
     }),
   ],
   customStyles: {
@@ -21,8 +21,8 @@ const config = {
   },
   widgets: [
     {
-      widgetName: "learningOptions",
-      widgetFunc: (props) => <LearningOptions {...props} />,
+      widgetName: "initialChoices",
+      widgetFunc: (props) => <InitialChoices {...props} />,
     },
     {
       widgetName: "javascriptLinks",
@@ -51,5 +51,21 @@ const config = {
     },
   ],
 };
+
+
+ // Defines an object of custom components that will replace the stock chatbot components. 
+  // customComponents: {
+  //    // Replaces the default header
+  //   header: () => <div style={{ backgroundColor: 'red', padding: "5px", borderRadius: "3px" }}>This is the header</div>
+  //   // Replaces the default bot avatar
+  //   botAvatar: (props) => <FlightBotAvatar {...props} />,
+  //   // Replaces the default bot chat message container
+  //   botChatMessage: (props) => <CustomChatMessage {...props} />,
+  //   // Replaces the default user icon
+  //   userAvatar: (props) => <MyUserAvatar {...props} />,
+  //   // Replaces the default user chat message
+  //   userChatMessage: (props) => <MyUserChatMessage {...props} />
+  // },
+
 
 export default config;
