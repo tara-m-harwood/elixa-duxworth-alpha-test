@@ -12,6 +12,20 @@ code {
     monospace;
 }
 
-#main-container {
+div#main-container {
   display: inline-flex;
+  background-color: #ED4AAE;
+  width: 100%;
+  justify-items: right;
+}
+
+section#left-sidebar{
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+img#elixa-sidebar-icon{
+  width: 98%;
 }
