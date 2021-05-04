@@ -36,6 +36,8 @@
   width: 70vw;
   height: 100vh;
   align-self: flex-end;
+    border-left-color: #41BC3F;
+  border-left-width: 8px;
 }
 
 @media only screen and ( max-width: 768px ) {
@@ -65,8 +67,8 @@
 .react-chatbot-kit-user-chat-message {
   font-size: large;
   font-weight: 700;
-  color: #000;
-  background-color: #D7E1AC;
+  color: #fff;
+  background-color: #41BC3F;
   max-width: 45%;
 }
 
