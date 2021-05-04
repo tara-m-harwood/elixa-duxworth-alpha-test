@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #a2dda2;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,6 +27,23 @@
 .App-link {
   color: #61dafb;
 }
+
+.react-chatbot-kit-chat-container {
+  width: 75vw;
+  height: 99vh;
+  align-self: flex-end;
+}
+
+.react-chatbot-kit-chat-inner-container {
+  background-color: #61dafb;
+  width: 75vw;
+  height: 90vh;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  justify-items: left;
+}
+
 
 @keyframes App-logo-spin {
   from {

@@ -5,7 +5,7 @@ import LearningOptions from "./components/LearningOptions/LearningOptions";
 import LinkList from "./components/LinkList/LinkList";
 
 const config = {
-  botName: "LearningBot",
+  botName: "Elixa Duxworth",
   initialMessages: [
     createChatBotMessage("Hi, I'm here to help. What do you want to learn?", {
       widget: "learningOptions",
@@ -13,10 +13,10 @@ const config = {
   ],
   customStyles: {
     botMessageBox: {
-      backgroundColor: "#376B7E",
+      backgroundColor: "#ED4AAE",
     },
     chatButton: {
-      backgroundColor: "#376B7E",
+      backgroundColor: "#ED4AAE",
     },
   },
   widgets: [

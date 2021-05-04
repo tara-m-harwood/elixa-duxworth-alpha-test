@@ -5,6 +5,21 @@ class ActionProvider {
   }
 
   // new method
+
+  elixa(message) {
+    const baseURL = "https://api.pandorabots.com/talk/unf6963c69/elixa?user_key=bc3d30376b455afd667908e211239116&input="
+
+    fetch(`${baseURL}${message}`, {
+                method: 'POST'
+            }
+        )
+        .then(data => data.json())
+        .then(data => {
+            const elixaReply =this.createChatBotMessage(data.responses[0]);
+            this.updateChatbotState(elixaReply)
+        })  
+  }
+
   greet() {
     const greetingMessage = this.createChatBotMessage("Hi, friend.");
     this.updateChatbotState(greetingMessage);
