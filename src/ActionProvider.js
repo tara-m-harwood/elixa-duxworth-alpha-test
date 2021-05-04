@@ -17,6 +17,15 @@ class ActionProvider {
         .then(data => {
             const responses = data.responses
             responses.forEach(response => {
+
+              const firstChar = response.charAt(0)
+              if(firstChar==='<'){
+                console.log(firstChar)
+                const parser = new DOMParser();
+                const parsedResponse = parser.parseFromString(response, "application/xml")
+                console.log(parsedResponse.documentElement.textContent)
+              }
+              
               const elixaReply =this.createChatBotMessage(response);
               this.updateChatbotState(elixaReply)
             })
