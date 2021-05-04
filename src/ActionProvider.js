@@ -15,8 +15,12 @@ class ActionProvider {
         )
         .then(data => data.json())
         .then(data => {
-            const elixaReply =this.createChatBotMessage(data.responses[0]);
-            this.updateChatbotState(elixaReply)
+            const responses = data.responses
+            responses.forEach(response => {
+              const elixaReply =this.createChatBotMessage(response);
+              this.updateChatbotState(elixaReply)
+            })
+
         })  
   }
 
