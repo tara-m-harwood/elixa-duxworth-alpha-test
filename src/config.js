@@ -2,6 +2,9 @@ import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
 
 import InitialChoices from "./components/InitialChoices/InitialChoices";
+import ElixaBotAvatar from "./components/ElixaBotAvatar/ElixaBotAvatar";
+import UserAvatar from "./components/UserAvatar/UserAvatar";
+
 import LinkList from "./components/LinkList/LinkList";
 
 const config = {
@@ -18,6 +21,10 @@ const config = {
     chatButton: {
       backgroundColor: "#ED4AAE",
     },
+  },
+  customComponents: {
+    botAvatar: (props) => <ElixaBotAvatar {...props} />,
+    userAvatar: (props) => <UserAvatar {...props} />,
   },
   widgets: [
     {
