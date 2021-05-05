@@ -16,7 +16,7 @@ Elixa's friendly attitude, familiar chat interface, and constant availability ma
 
 ## History and Inspiration
 
-Elixa Duxworth is the evolution of my earlier project, [Elixa Newpal]http://www.elixa.io/denver-love), which was developed as an appreciative gift to the incredible learning community of the Flatiron Software Engineering Bootcamp in Denver, CO, affectionately known as "The Love Bubble" or "The Learning Factory".  
+Elixa Duxworth is the evolution of my earlier project, [Elixa Newpal](http://www.elixa.io/denver-love), which was developed as an appreciative gift to the incredible learning community of the Flatiron Software Engineering Bootcamp in Denver, CO, affectionately known as "The Love Bubble" or "The Learning Factory".  
 
 That orginal Elixa Newpal program is based on ELIZA, an early natural language processing computer program developed in 1966 by Joseph Weizenbaum of the MIT Artificial Intelligence Lab. ELIZA simulated conversation by using a pattern matching and substitution methodology that gave users an illusion of understanding on the part of the program. Interactions were dictated by "scripts" which allowed ELIZA to process user inputs and engage in discourse following the rules and directions of the script. The most famous script, DOCTOR, simulated a psychotherapist by using script rules to respond with non-directional questions to user inputs. ELIZA was one of the first ever chatbots and one of the first programs capable of attempting the Turing test.
 
