@@ -38,6 +38,20 @@ class ActionProvider {
     this.updateChatbotState(greetingMessage);
   }
 
+  handleStartTroubleshooter = () => {
+    const message = this.createChatBotMessage(
+      "Great!  Let's get started!  First, can you tell me what you want your code to do?",
+    )
+    this.updateChatbotState(message);
+  }
+
+  handleStartChatting = () => {
+    const message = this.createChatBotMessage(
+      "Great!  I love chatting!  What do you want to talk about?",
+    )
+    this.updateChatbotState(message);
+  }
+
   handleJavascriptList = () => {
     const message = this.createChatBotMessage(
       "Fantastic, I've got the following resources for you on Javascript:",

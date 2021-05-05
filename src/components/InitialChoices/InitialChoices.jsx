@@ -6,10 +6,13 @@ const InitialChoices = (props) => {
   const options = [
     {
       text: "I need help with my code",
-      handler: props.actionProvider.handleJavascriptList,
+      handler: props.actionProvider.handleStartTroubleshooter,
       id: 1,
     },
-    { text: "I just want to chat", handler: () => {}, id: 2 },
+    { text: "I just want to chat", 
+      handler: props.actionProvider.handleStartChatting, 
+      id: 2 
+    },
   ];
 
   const optionsMarkup = options.map((option) => (
