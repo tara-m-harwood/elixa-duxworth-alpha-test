@@ -1,4 +1,4 @@
-![pink chat icon with a green status indicator and a green smile. Text below reads 'elixa.io, have a nice chat'](https://elixa.io/assets/elixa.png) 
+![pink chat icon with a green status indicator and a green smile. Text below reads 'elixa.io, have a nice chat'](https://raw.githubusercontent.com/tara-m-harwood/elixa-newpal-node/main/public/elixa_small.png) 
 
 ## Table of contents
 * [Meet Elixa](#meet-elixa)
